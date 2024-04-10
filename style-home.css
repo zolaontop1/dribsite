@@ -221,7 +221,7 @@
     width: 10px;
     padding: 15px;
     margin: 0px;
-    background-image: url(images/twitter.png);
+    background-image: url(./images/twitter.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
@@ -232,7 +232,7 @@
     width: 10px;
     padding: 15px;
     margin: 4px;
-    background-image: url(/images/facebook.png);
+    background-image: url(./images/facebook.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
@@ -243,7 +243,7 @@
     width: 10px;
     padding: 15px;
     margin: 4px;
-    background-image: url(/images/instagram.png);
+    background-image: url(./images/instagram.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
@@ -254,7 +254,7 @@
     width: 10px;
     padding: 15px;
     margin: 4px;
-    background-image: url(/images/pinterest.png);
+    background-image: url(./images/pinterest.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
@@ -518,7 +518,7 @@
     padding: 10px;
     width: 6px;
     height: 6px;
-    background-image: url(images/basketball.png);
+    background-image: url(./images/basketball.png);
     background-size: 22px;
     background-repeat: no-repeat;
     background-position: center;
