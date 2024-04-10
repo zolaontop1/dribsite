@@ -190,11 +190,16 @@ header label{
     height: 40px;
     margin-top: 50px;
     color: #fff;
-    background-color: rgba(255, 105, 180, 0.418);
+    background-color: #E84393;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     border: none;
     border-radius: 8px;
+}
+
+.location button a{
+    text-decoration: none;
+    color: white;
 }
 
 
