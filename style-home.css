@@ -21,7 +21,6 @@
 .nav-main .menu{
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .menu ul{
@@ -184,9 +183,16 @@
 
 .feet{
     width: 100%;
-    height: 750px;
+    height: auto;
     background-color: #f1f1f1;
     padding: 0px;
+    margin: 0px;
+}
+
+.feet .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .feet .feetelems{

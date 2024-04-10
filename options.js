@@ -4,6 +4,7 @@ let optionStatus3 = false;
 
 
 let toggleIt1 = function () {
+
     let getCard = document.querySelector(".card-1");
     let getCardImg = document.querySelector(".card-1 img");
     let getCardPara = document.querySelector(".card-1 p");
