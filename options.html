@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribbble</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style-options.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <label for="logo-brand">dribbble</label>
+        <button class="back" onclick="location.href='/profile.html'"><img src="/images/back.png" alt="back-left"></button>
+    </header>
+
+    <div class="container">
+
+        <h1>What brings you to Dribbble?</h1>
+        <h4>Select the option that best describe you. Don't worry, you can explore other options later.</h4>
+    </div>
+
+    <div class="cards">
+
+
+
+        <div class="card-1" onclick="toggleIt1()">
+
+            <!-- <div class="share"></div> -->
+            <img src="/images/share.png" alt="hire">
+            <div class="content">
+                <h2>I'm a designer looking to share my work</h2>
+                <p>With over 7 million shots from a vast community of designers.
+                    Dribbble is<br> the leading source for design inspiration.
+                </p>
+            </div>
+            <div class="select">
+                <div class="tick"></div>
+            </div>
+        </div>
+
+
+
+
+        <div class="card-2" onclick="toggleIt2()">
+
+            <img src="/images/hire.png" alt="hire" >
+            <div class="content">
+                <h2>I'm looking to hire a designer</h2>
+                <p>With over 7 million shots from a vast community of designers.
+                    Dribbble is the leading source for design inspiration.
+                </p>
+            </div>
+            <div class="select">
+                <div class="tick"></div>
+            </div>
+
+        </div>
+
+        <div class="card-3" onclick="toggleIt3()">
+
+            <img src="/images/idea.png" alt="inspo">
+            <div class="content">
+                <h2>I'm looking for design inspiration</h2>
+                <p>With over 7 million shots from a vast community of designers.
+                    Dribbble is the leading source for design inspiration.
+                </p>
+            </div>
+            <div class="select">
+                <div class="tick"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nextbtn">
+        
+        <h3>Anything else? You can select multiple</h3>
+        <button><a href="home.html">Finish</a></button>
+
+    </div>
+
+
+    <script src="options.js"></script>
+ 
+
+</body>
+
+</html>

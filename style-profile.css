@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.style-script-regular {
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    margin-top: 40px;
+}
+
+header label{
+    font-family: "Style Script";
+    font-size: 45px;
+    color: hotpink;
+    margin: 100px 50px 0px;
+}
+
+.container{
+    margin: 40px 25% 50px;
+}
+
+.container h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #111;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.container h6{
+    font-size: 17px;
+    font-family:'Franklin Gothic Normal', 'Arial Narrow', Arial, sans-serif;
+    color: #a7a2a2;
+    margin-left: 10px;
+    margin-bottom: 55px;
+}
+
+.container h4{
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+
+.avatar{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0px 0px 70px;
+}
+
+
+<!-- .avatar .photo{
+    width: 20px;
+    height: 20px;
+    padding: 80px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 80px;
+    border: 2px dashed #a7a2a2;
+    border-radius: 50%;
+} -->
+
+<!-- .ava{
+    
+    width: 20px;
+    height: 20px;
+    padding: 80px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 80px;
+    border: 2px dashed #a7a2a2;
+    border-radius: 50%;
+
+} -->
+
+
+
+
+.ava{
+    
+    width: 30px;
+    height: 30px;
+    padding: 80px;
+    overflow: hidden;
+    border: 2px dashed #a7a2a2;
+    border-radius: 50%;
+
+}
+
+
+.ava img{
+
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: -83px -81px;
+}
+
+.form-group{
+    position:realtive;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+
+<!-- .form-group button{
+    position: realtive;
+    width: 130px;
+    height: 40px;
+    color: #111;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+    border: 1px solid #a7a2a260;
+    border-radius: 8px;
+} -->
+
+.form-group .button{
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    height: 40px;
+    color: #111;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+    border: 1px solid #a7a2a260;
+    border-radius: 8px;
+}
+
+.button i{
+    width:130px;
+    height:50px;
+    line-height: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    text-align:center; 
+    border: none;
+}
+
+.button input[type="file"]{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    opacity:0;
+    border:none;
+}
+
+
+.defs a{
+    text-decoration: none;
+    color: #b9b6b6;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.location input{
+    width: 44%;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #c0bfbf7e;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+.location button{
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(255, 105, 180, 0.418);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+

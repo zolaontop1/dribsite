@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.style-script-regular {
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header {
+    margin-top: 40px;
+}
+
+header label {
+    font-family: "Style Script";
+    font-size: 45px;
+    color: hotpink;
+    margin: 100px 50px 0px;
+}
+
+header button img {
+    width: 15px;
+}
+
+header button {
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 0px;
+    border: none;
+    border-radius: 8px;
+}
+
+.container {
+    margin: 40px 25% 50px;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #111;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.container h4 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: #a7a2a2;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 60px 16% 0px;
+}
+
+
+
+.onclick    {
+    width: 380px;
+    height: 420px;
+    /* border: 2px solid #f0ecec; */
+    border: 2px solid #ff69b4;
+    border-radius: 25px;
+    margin: 30px 20px 20px;
+}
+
+
+
+
+
+.card-1 {
+    width: 380px;
+    height: 420px;
+    border: 2px solid #2525251f;
+    border-radius: 25px;
+    margin: 30px 20px 20px;
+}
+
+.card-1 img {
+    display: block;
+    margin: -20px auto 0px;
+    /* margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto; */
+    width: 300px;
+}
+
+.card-1 p {
+    display: none;
+    font-size: 18px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: #636161;
+}
+
+.card-1 .select {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #25252563;
+    border-radius: 50px;
+    margin: 25px 45% 10px;
+    padding: 10px;
+    background: #fff;
+}
+
+
+.select .tick{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-image: url(images/tick.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.card-1 .content {
+    padding: 0px 40px 0px;
+}
+
+
+
+
+.card-2 {
+    width: 380px;
+    height: 420px;
+    border: 2px solid #2525251f;
+    border-radius: 25px;
+    margin: 30px 20px 20px;
+}
+
+.card-2 img {
+    display: block;
+    margin: -20px auto 0px;
+    /* margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto; */
+    width: 300px;
+}
+
+.card-2 p {
+    display: none;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: #636161;
+}
+
+.card-2 .select {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #25252563;
+    border-radius: 50px;
+    margin: 25px 45% 10px;
+    padding: 10px;
+    background: #fff;
+}
+
+
+.select .tick{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-image: url(images/tick.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.card-2 .content {
+    padding: 0px 40px 0px;
+}
+
+
+
+
+.card-3 {
+    width: 380px;
+    height: 420px;
+    border: 2px solid #2525251f;
+    border-radius: 25px;
+    margin: 30px 20px 20px;
+}
+
+.card-3 img {
+    display: block;
+    margin: -20px auto 0px;
+    /* margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto; */
+    width: 300px;
+}
+
+.card-3 p {
+    display: none;
+    font-size: 18px;
+    padding-top: 17px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: #636161;
+}
+
+.card-3 .select {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #25252563;
+    border-radius: 50px;
+    margin: 25px 45% 10px;
+    padding: 10px;
+    background: #fff;
+}
+
+
+.select .tick{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-image: url(images/tick.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.card-3 .content {
+    padding: 0px 40px 0px;
+}
+
+.content h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.nextbtn{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 0px;
+}
+
+.nextbtn h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin: 30px auto 0px;
+}
+
+.nextbtn button {
+    width: 200px;
+    height: 40px;
+    margin: 30px auto 0px;
+    justify-content: center;
+    color: #fff;
+    background-color: #E84393;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+.nextbtn button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

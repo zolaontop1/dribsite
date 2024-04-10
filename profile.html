@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribbble</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style-profile.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <label for="logo-brand">dribbble</label>
+    </header>
+
+    <div class='container'>
+        <h1>Welcome! Let's create your profile
+        </h1>
+        <h6>Let others get to know you better! You can do these later</h6>
+        <h4>Add an avatar</h4>
+
+
+        <form action='profile.php' method='post' enctype='multipart/form-data'>
+
+                <div class='avatar'>
+    
+                    
+                    <div class='ava'>
+                         <img src='images\defimg.webp' id='profileDisplay' onclick='triggerClick()'>
+                     </div>
+
+    
+    
+                    <div class='form-group'>
+    
+    
+                        <div class='button'>
+                            <i class='upload'>upload file</i>
+                            <input type='file' name='file' onchange='displayImage(this)' id='profileImage'>
+    
+                        </div>
+    
+                        <div class='defs'>
+                            <a href='#'>> Or choose one of our defaults</a>
+                        </div>
+    
+                        <button type='submit' name='upload'>Next</button>
+                    </div>
+    
+    
+                </div>
+    
+            </form>
+
+        <h4>Add your location</h4>
+        <div class='location'>
+            <input type='text' placeholder='Enter a location'>
+            <button type='submit' name='next' onclick="location.href='/options.html'">Next</button>
+        </div>
+
+    </div>
+
+    <script src="profile.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,525 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+}
+
+.style-script-regular {
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.nav-main{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-main .menu{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu ul label{
+    font-family: "Style Script";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.menu ul label:hover{
+    color: hotpink;
+}
+
+.menu ul li{
+    margin-left: 30px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    line-height: 60px;
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5a5555;
+    cursor: pointer;
+}
+
+.nav-main ul li a:hover{
+    text-decoration: 5px underline hotpink;
+}
+
+
+.nav-main .end{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.end .user{
+    padding: 15px;
+    background: #f1f1f1;
+    background-image: url(images/user.png);
+    background-size: 55px;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: center;
+    width: 25px;
+    height: 25px;
+    margin: 0px 15px 0px;
+    border: 1px solid #111;
+    border-radius: 50%;
+}
+
+.end .bag{
+    padding: 20px;
+    background-image: url(images/bag.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 4px;
+    margin: 0px 10px 0px;
+    border-radius: 50%;
+}
+
+.end .search{
+    padding-top: 5px;
+    padding-right: 20px;
+}
+
+.search input{
+    background-image: url(images/search.png);
+    background-size: 20px;
+    background-position: left;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    background-color: #f1f1f1;
+    padding-left: 35px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.end .upload{
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.end button{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 17px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:hotpink;
+    line-height: 45px;
+    padding: 0px 30px 0px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+.nav-main .end button:hover{
+    box-shadow: 5px 5px 0px #111;
+    top: -5px;
+    left: -5px;
+}
+
+
+
+
+
+
+.verify{
+    height: 770px;
+    text-align: center;
+    margin: 50px 40px 0px;
+    padding-top: 60px;
+}
+
+.verify h1{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #111;
+    margin: 0px 0px 0px;
+    cursor: pointer;
+}
+
+.verify .icon{
+    padding: 100px;
+    background-image: url(images/maill.png);
+    background-position: center;
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+.verify p{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #5a5555;
+}
+
+.verify strong{
+    color: #111;
+}
+
+.verify a{
+    text-decoration: none;
+    color: hotpink;
+}
+
+
+
+.feet{
+    width: 100%;
+    height: 750px;
+    background-color: #f1f1f1;
+    padding: 0px;
+}
+
+.feet .feetelems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 0px 180px;
+}
+
+.feetelems .contacts{
+    margin: 60px 40px 0px;
+}
+
+.contacts label{
+    font-family: "Style Script";
+    font-size: 45px;
+    color: hotpink;
+}
+
+.contacts p{
+    font-family: 'Franklin Gothic normal', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.contacts .socials{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.contacts .socials .twitter{
+    width: 10px;
+    padding: 15px;
+    margin: 0px;
+    background-image: url(images/twitter.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.contacts .socials .facebook{
+    width: 10px;
+    padding: 15px;
+    margin: 4px;
+    background-image: url(/images/facebook.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.contacts .socials .instagram{
+    width: 10px;
+    padding: 15px;
+    margin: 4px;
+    background-image: url(/images/instagram.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.contacts .socials .pintrest{
+    width: 10px;
+    padding: 15px;
+    margin: 4px;
+    background-image: url(/images/pinterest.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.designers{
+    margin: 60px 40px 0px;
+}
+
+.designers label{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.designers ul{
+    list-style-type: none;
+}
+
+.designers ul li{
+    padding-top: 15px;
+}
+
+
+.designers ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #4e4b4b;
+    font-family: 'Franklin Gothic normal', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hire{
+    margin: 60px 40px 0px;
+}
+
+.hire label{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.hire ul{
+    list-style-type: none;
+    padding-top: 5px;    
+}
+
+.hire ul li{
+    padding-top: 15px;
+}
+
+
+.hire ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #4e4b4b;
+    font-family: 'Franklin Gothic normal', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.hire .brands{
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.company{
+    margin: 60px 40px 0px;
+}
+
+.company label{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.company ul{
+    list-style-type: none;
+    padding-top: 5px;    
+}
+
+.company ul li{
+    padding-top: 15px;
+}
+
+
+.company ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #4e4b4b;
+    font-family: 'Franklin Gothic normal', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.directories{
+    margin: 60px 40px 0px;
+}
+
+.directories label{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.directories ul{
+    list-style-type: none;
+    padding-top: 5px;    
+}
+
+.directories ul li{
+    padding-top: 15px;
+}
+
+
+.directories ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #4e4b4b;
+    font-family: 'Franklin Gothic normal', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.directories .assets{
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resources{
+    margin: 60px 40px 0px;
+}
+
+.resources label{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.resources ul{
+    list-style-type: none;
+    padding-top: 5px;    
+}
+
+.resources ul li{
+    padding-top: 15px;
+}
+
+
+.resources ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #4e4b4b;
+    font-family: 'Franklin Gothic normal', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+.copyright{
+    margin: 60px;
+}
+
+.copyright .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.wrapper .dribs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper .basketball{
+    margin: -4px 3px 0px;
+    padding: 10px;
+    width: 6px;
+    height: 6px;
+    background-image: url(images/basketball.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
