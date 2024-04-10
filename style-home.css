@@ -35,7 +35,12 @@
     font-weight: bold;
 }
 
-.menu ul label:hover{
+.menu ul label a{
+    text-decoration: none;
+    color: #111;
+}
+
+.menu ul label a:hover{
     color: hotpink;
 }
 
@@ -510,8 +515,9 @@
 .copyright .wrapper{
     display: flex;
     flex-wrap: wrap;
+    /* height: auto; */
     justify-content: space-between;
-    padding-top: 40px;
+    padding: 40px;
 }
 
 .wrapper .dribs{
