@@ -113,7 +113,7 @@ header label{
     
 }
 
-<!-- .form-group button{
+.form-group button{
     position: realtive;
     width: 130px;
     height: 40px;
@@ -123,7 +123,7 @@ header label{
     background-color: transparent;
     border: 1px solid #a7a2a260;
     border-radius: 8px;
-} -->
+}
 
 .form-group .button{
     display: flex;
@@ -204,8 +204,207 @@ header label{
 
 
 
+@media screen and (min-width: 320px) and (max-width: 375px){
 
 
+
+
+    header label{
+        margin: 0px 105px 0px;
+        float: center;
+        padding-bottom: 0px;
+
+    }
+
+    .container{
+        padding: 0px;
+        margin: 5px;
+    }
+
+    .container h1{
+        font-size: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+
+    }
+
+
+
+    .container h6{
+
+        font-size: 15px;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+    }
+
+
+
+    .container h4{
+        font-size: 20px;
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+
+    .avatar{
+        justify-content: space-around;
+    }
+
+    .ava{
+        width: 5px;
+        height: 5px;
+        display: flex;
+        justify-content: space-around ;
+    }
+    
+    .ava img{
+        width: 150px;
+        height: 150px;
+        margin: -68px -70px;
+    }
+
+    .form-group{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .form-group .button{
+        margin-left: 15px;
+    }
+    
+    .form-group .defs{
+        margin-left: -20px;
+    }
+
+    .location input{
+        margin-left: 0px;
+        width: 250px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+
+    }
+
+    .location button{
+        margin-left: 50px;
+        margin-bottom: 0px;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 376px) and (max-width: 425px){
+
+
+
+    header label{
+        margin: 0px 160px 0px;
+        float: center;
+        padding-bottom: 0px;
+
+    }
+
+    .container{
+        padding: 0px;
+        margin: 5px;
+    }
+
+    .container h1{
+        font-size: 25px;
+        margin-top: 0px;
+        padding-top: 0px;
+
+    }
+
+
+
+    .container h6{
+
+        font-size: 15px;
+        margin-bottom: 5px;
+        margin-bottom: 25px;
+    }
+
+
+
+    .container h4{
+        font-size: 20px;
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+
+    .avatar{
+        justify-content: space-around;
+    }
+
+    .ava{
+        width: 5px;
+        height: 5px;
+        display: flex;
+        justify-content: space-around ;
+    }
+    
+    .ava img{
+        width: 150px;
+        height: 150px;
+        margin: -68px -70px;
+    }
+
+    .form-group{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .form-group .button{
+        margin-left: 15px;
+    }
+    
+    .form-group .defs{
+        margin-left: -20px;
+    }
+
+    .location input{
+        margin-left: 0px;
+        width: 250px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+
+    }
+
+    .location button{
+        margin-left: 100px;
+        margin-bottom: 0px;
+    }
+
+
+
+}
 
 
 
