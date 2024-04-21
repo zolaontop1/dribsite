@@ -11,7 +11,7 @@
 }
 
 
-.nav-main{
+.nav-main {
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -19,7 +19,7 @@
 }
 
 
-.logo label{
+.logo label {
     font-family: "Style Script";
     font-size: 40px;
     font-weight: bold;
@@ -28,33 +28,33 @@
 
 }
 
-.logo label a{
+.logo label a {
     text-decoration: none;
     color: #111;
 }
 
-.logo label a:hover{
+.logo label a:hover {
     color: hotpink;
 }
 
-.nav-main .menu{
+.nav-main .menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 
-.menu ul{
+.menu ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
 }
 
-.menu ul li{
+.menu ul li {
     margin-left: 30px;
 }
 
-.menu ul li a{
+.menu ul li a {
     text-decoration: none;
     line-height: 60px;
     padding: 5px;
@@ -64,16 +64,16 @@
     cursor: pointer;
 }
 
-.nav-main ul li a:hover{
+.nav-main ul li a:hover {
     text-decoration: 5px underline hotpink;
 }
 
-.nav-main .end{
+.nav-main .end {
     display: flex;
     flex-wrap: wrap;
 }
 
-.end .user{
+.end .user {
     padding: 15px;
     background: #f1f1f1;
     background-image: url(images/user.png);
@@ -88,7 +88,7 @@
     border-radius: 50%;
 }
 
-.end .bag{  
+.end .bag {
     padding: 20px;
     background-image: url(images/bag.png);
     background-size: 35px;
@@ -99,12 +99,12 @@
     border-radius: 50%;
 }
 
-.end .search{
+.end .search {
     padding-top: 5px;
     padding-right: 20px;
 }
 
-.search input{
+.search input {
     background-image: url(images/search.png);
     background-size: 20px;
     background-position: left;
@@ -120,18 +120,18 @@
     border-radius: 10px;
 }
 
-.end .upload{
+.end .upload {
     padding-top: 5px;
     padding-left: 15px;
 }
 
-.end button{
+.end button {
     text-decoration: none;
     color: #f1f1f1;
     font-size: 17px;
     height: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:hotpink;
+    background-color: hotpink;
     line-height: 45px;
     padding: 0px 30px 0px;
     margin-left: 5px;
@@ -139,7 +139,7 @@
     border-radius: 10px;
 }
 
-.nav-main .end button:hover{
+.nav-main .end button:hover {
     box-shadow: 5px 5px 0px #111;
     top: -5px;
     left: -5px;
@@ -150,22 +150,22 @@
 
 
 
-.verify{
+.verify {
     height: 770px;
     text-align: center;
     margin: 50px 40px 0px;
     padding-top: 60px;
 }
 
-.verify h1{
+.verify h1 {
     font-size: 40px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #111;
     margin: 0px 0px 0px;
     cursor: pointer;
 }
 
-.verify .icon{
+.verify .icon {
     padding: 100px;
     background-image: url(images/maill.png);
     background-position: center;
@@ -173,25 +173,34 @@
     background-repeat: no-repeat;
 }
 
-.verify p{
+.verify p {
     font-size: 25px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     color: #5a5555;
 }
 
-.verify strong{
+.verify strong {
     color: #111;
 }
 
-.verify a{
+.verify a {
     text-decoration: none;
     color: hotpink;
 }
 
 
 
-.feet{
+
+.footer {
+    position: relative;
+    top: 100vh;
+}
+
+
+.feet {
+    position: absolute;
+    bottom: 0px;
     width: 100%;
     height: auto;
     background-color: #f1f1f1;
@@ -199,41 +208,41 @@
     margin: 0px;
 }
 
-.feet .container{
+.feet .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.feet .feetelems{
+.feet .feetelems {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0px 0px 180px;
 }
 
-.feetelems .contacts{
+.feetelems .contacts {
     margin: 60px 40px 0px;
 }
 
-.contacts label{
+.contacts label {
     font-family: "Style Script";
     font-size: 45px;
     color: hotpink;
 }
 
-.contacts p{
+.contacts p {
     font-family: 'Franklin Gothic normal', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
 }
 
-.contacts .socials{
+.contacts .socials {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
 }
 
-.contacts .socials .twitter{
+.contacts .socials .twitter {
     width: 10px;
     padding: 15px;
     margin: 0px;
@@ -244,7 +253,7 @@
     cursor: pointer;
 }
 
-.contacts .socials .facebook{
+.contacts .socials .facebook {
     width: 10px;
     padding: 15px;
     margin: 4px;
@@ -255,7 +264,7 @@
     cursor: pointer;
 }
 
-.contacts .socials .instagram{
+.contacts .socials .instagram {
     width: 10px;
     padding: 15px;
     margin: 4px;
@@ -266,7 +275,7 @@
     cursor: pointer;
 }
 
-.contacts .socials .pintrest{
+.contacts .socials .pintrest {
     width: 10px;
     padding: 15px;
     margin: 4px;
@@ -287,26 +296,26 @@
 
 
 
-.designers{
+.designers {
     margin: 60px 40px 0px;
 }
 
-.designers label{
+.designers label {
     font-weight: bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
-.designers ul{
+.designers ul {
     list-style-type: none;
 }
 
-.designers ul li{
+.designers ul li {
     padding-top: 15px;
 }
 
 
-.designers ul li a{
+.designers ul li a {
     font-size: 18px;
     text-decoration: none;
     color: #4e4b4b;
@@ -330,27 +339,27 @@
 
 
 
-.hire{
+.hire {
     margin: 60px 40px 0px;
 }
 
-.hire label{
+.hire label {
     font-weight: bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
-.hire ul{
+.hire ul {
     list-style-type: none;
-    padding-top: 5px;    
+    padding-top: 5px;
 }
 
-.hire ul li{
+.hire ul li {
     padding-top: 15px;
 }
 
 
-.hire ul li a{
+.hire ul li a {
     font-size: 18px;
     text-decoration: none;
     color: #4e4b4b;
@@ -358,7 +367,7 @@
     cursor: pointer;
 }
 
-.hire .brands{
+.hire .brands {
     margin-top: 25px;
 }
 
@@ -378,27 +387,27 @@
 
 
 
-.company{
+.company {
     margin: 60px 40px 0px;
 }
 
-.company label{
+.company label {
     font-weight: bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
-.company ul{
+.company ul {
     list-style-type: none;
-    padding-top: 5px;    
+    padding-top: 5px;
 }
 
-.company ul li{
+.company ul li {
     padding-top: 15px;
 }
 
 
-.company ul li a{
+.company ul li a {
     font-size: 18px;
     text-decoration: none;
     color: #4e4b4b;
@@ -428,27 +437,27 @@
 
 
 
-.directories{
+.directories {
     margin: 60px 40px 0px;
 }
 
-.directories label{
+.directories label {
     font-weight: bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
-.directories ul{
+.directories ul {
     list-style-type: none;
-    padding-top: 5px;    
+    padding-top: 5px;
 }
 
-.directories ul li{
+.directories ul li {
     padding-top: 15px;
 }
 
 
-.directories ul li a{
+.directories ul li a {
     font-size: 18px;
     text-decoration: none;
     color: #4e4b4b;
@@ -456,7 +465,7 @@
     cursor: pointer;
 }
 
-.directories .assets{
+.directories .assets {
     margin-top: 25px;
 }
 
@@ -482,27 +491,27 @@
 
 
 
-.resources{
+.resources {
     margin: 60px 40px 0px;
 }
 
-.resources label{
+.resources label {
     font-weight: bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
-.resources ul{
+.resources ul {
     list-style-type: none;
-    padding-top: 5px;    
+    padding-top: 5px;
 }
 
-.resources ul li{
+.resources ul li {
     padding-top: 15px;
 }
 
 
-.resources ul li a{
+.resources ul li a {
     font-size: 18px;
     text-decoration: none;
     color: #4e4b4b;
@@ -513,11 +522,11 @@
 
 
 
-.copyright{
-    margin: 60px;
+.copyright {
+    margin: 0px 60px;
 }
 
-.copyright .wrapper{
+.copyright .wrapper {
     display: flex;
     flex-wrap: wrap;
     /* height: auto; */
@@ -525,12 +534,12 @@
     padding: 40px;
 }
 
-.wrapper .dribs{
+.wrapper .dribs {
     display: flex;
     flex-wrap: wrap;
 }
 
-.wrapper .basketball{
+.wrapper .basketball {
     margin: -4px 3px 0px;
     padding: 10px;
     width: 6px;
@@ -549,21 +558,21 @@
 
 
 
-@media screen and (min-width: 320px) and (max-width: 321px){
+@media screen and (min-width: 320px) and (max-width: 321px) {
 
 
-    
-    .menu ul label a{
+
+    .menu ul label a {
         text-decoration: none;
         color: #111;
     }
-    
-    .menu ul li{
+
+    .menu ul li {
         margin-left: 15px;
         padding: 0px;
     }
-    
-    .menu ul li a{
+
+    .menu ul li a {
         line-height: 60px;
         padding: 0px;
         font-size: 12px;
@@ -578,30 +587,30 @@
     } */
 
 
-    .end .search{
+    .end .search {
         margin: 0px 0px 0px;
     }
 
-    .end .search input{
+    .end .search input {
         width: 90px;
         height: 40px;
         margin: 0px;
         font-size: 9px;
     }
 
-    .end .bag{
+    .end .bag {
         margin-left: 0px;
     }
-    
-    .end .user{
+
+    .end .user {
         margin-left: 4px;
     }
 
-    .end button{
+    .end button {
         font-size: 13px;
         height: 40px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-color:hotpink;
+        background-color: hotpink;
         line-height: 45px;
         padding: 0px 30px 0px;
         margin-left: 5px;
@@ -612,7 +621,7 @@
 
 
 
-    .verify{
+    .verify {
         height: 550px;
         text-align: center;
         margin: 10px 40px 0px;
@@ -620,58 +629,74 @@
     }
 
 
-    .verify h1{
+    .verify h1 {
         font-size: 25px;
         margin: 0px 0px 0px;
         padding: 0px;
     }
-    
-    .verify .icon{
+
+    .verify .icon {
         background-size: 120px;
         margin: 0px;
         padding: 50px;
     }
-    
-    .verify p{
+
+    .verify p {
         font-size: 15px;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: lighter;
         color: #5a5555;
     }
-    
-    .verify strong{
+
+    .verify strong {
         color: #111;
     }
-    
-    .verify a{
+
+    .verify a {
         text-decoration: none;
         color: hotpink;
     }
 
 
+    .footer {
+        /* position: relative; */
+        top: 0;
+    }
 
-    
+
+    .feet {
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        height: auto;
+        background-color: #f1f1f1;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+
 }
 
 
 
 
 
-@media screen and (min-width: 322px) and (max-width: 375px){
+@media screen and (min-width: 322px) and (max-width: 375px) {
 
 
-    
-    .menu ul label a{
+
+    .menu ul label a {
         text-decoration: none;
         color: #111;
     }
-    
-    .menu ul li{
+
+    .menu ul li {
         margin-left: 15px;
         padding: 0px;
     }
-    
-    .menu ul li a{
+
+    .menu ul li a {
         line-height: 60px;
         padding: 0px;
         font-size: 12px;
@@ -686,30 +711,30 @@
     } */
 
 
-    .end .search{
+    .end .search {
         margin: 0px 0px 0px;
     }
 
-    .end .search input{
+    .end .search input {
         width: 90px;
         height: 40px;
         margin: 0px;
         font-size: 9px;
     }
 
-    .end .bag{
+    .end .bag {
         margin-left: 0px;
     }
-    
-    .end .user{
+
+    .end .user {
         margin-left: 4px;
     }
 
-    .end button{
+    .end button {
         font-size: 13px;
         height: 40px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-color:hotpink;
+        background-color: hotpink;
         line-height: 45px;
         padding: 0px 30px 0px;
         margin-left: 5px;
@@ -720,7 +745,7 @@
 
 
 
-    .verify{
+    .verify {
         height: 550px;
         text-align: center;
         margin: 10px 40px 0px;
@@ -728,55 +753,71 @@
     }
 
 
-    .verify h1{
+    .verify h1 {
         font-size: 25px;
         margin: 0px 0px 0px;
         padding: 0px;
     }
-    
-    .verify .icon{
+
+    .verify .icon {
         background-size: 120px;
         margin: 0px;
         padding: 50px;
     }
-    
-    .verify p{
+
+    .verify p {
         font-size: 15px;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: lighter;
         color: #5a5555;
     }
-    
-    .verify strong{
+
+    .verify strong {
         color: #111;
     }
-    
-    .verify a{
+
+    .verify a {
         text-decoration: none;
         color: hotpink;
     }
 
+    .footer {
+        /* position: relative; */
+        top: 0;
+    }
 
 
-    
+    .feet {
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        height: auto;
+        background-color: #f1f1f1;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+
+
 }
 
 
-@media screen and (min-width: 376px) and (max-width: 425px){
+@media screen and (min-width: 376px) and (max-width: 425px) {
 
 
-    
-    .menu ul label a{
+
+    .menu ul label a {
         text-decoration: none;
         color: #111;
     }
-    
-    .menu ul li{
+
+    .menu ul li {
         margin-left: 15px;
         padding: 0px;
     }
-    
-    .menu ul li a{
+
+    .menu ul li a {
         line-height: 60px;
         padding: 0px;
         font-size: 12px;
@@ -791,30 +832,30 @@
     } */
 
 
-    .end .search{
+    .end .search {
         margin: 0px 0px 0px;
     }
 
-    .end .search input{
+    .end .search input {
         width: 90px;
         height: 40px;
         margin: 0px;
         font-size: 9px;
     }
 
-    .end .bag{
+    .end .bag {
         margin-left: 0px;
     }
-    
-    .end .user{
+
+    .end .user {
         margin-left: 4px;
     }
 
-    .end button{
+    .end button {
         font-size: 13px;
         height: 40px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-color:hotpink;
+        background-color: hotpink;
         line-height: 45px;
         padding: 0px 30px 0px;
         margin-left: 5px;
@@ -825,7 +866,7 @@
 
 
 
-    .verify{
+    .verify {
         height: 550px;
         text-align: center;
         margin: 10px 40px 0px;
@@ -833,35 +874,119 @@
     }
 
 
-    .verify h1{
+    .verify h1 {
         font-size: 25px;
         margin: 0px 0px 0px;
         padding: 0px;
     }
-    
-    .verify .icon{
+
+    .verify .icon {
         background-size: 120px;
         margin: 0px;
         padding: 50px;
     }
-    
-    .verify p{
+
+    .verify p {
         font-size: 15px;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: lighter;
         color: #5a5555;
     }
-    
-    .verify strong{
+
+    .verify strong {
         color: #111;
     }
-    
-    .verify a{
+
+    .verify a {
         text-decoration: none;
         color: hotpink;
     }
 
 
 
-    
+
+    .footer {
+        /* position: relative; */
+        top: 0;
+    }
+
+
+    .feet {
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        height: auto;
+        background-color: #f1f1f1;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+
+
+}
+
+
+
+@media screen and (min-width:426px) and (max-width: 768px){
+
+
+    .footer {
+        /* position: relative; */
+        top: 0;
+    }
+
+
+    .feet {
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        height: auto;
+        background-color: #f1f1f1;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
+@media screen and (min-width: 770px ) and (max-width: 1024px){
+
+
+
+    .footer {
+        /* position: relative; */
+        top: 0;
+    }
+
+
+    .feet {
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        height: auto;
+        background-color: #f1f1f1;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+
+    .footer {
+        /* position: relative; */
+        top: 0;
+    }
+
+
+    .feet {
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        height: auto;
+        background-color: #f1f1f1;
+        padding: 0px;
+        margin: 0px;
+    }
+
 }
