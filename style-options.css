@@ -54,13 +54,13 @@ header button {
     color: #a7a2a2;
 }
 
-.cards {
+    
+.cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 60px 16% 10px;
 }
-
 
 
 .onclick    {
@@ -78,7 +78,7 @@ header button {
 
 .card-1 {
     width: 380px;
-    height: 420px;
+    height: 425px;
     border: 2px solid #2525251f;
     border-radius: 25px;
     margin: 30px 20px 20px;
@@ -137,7 +137,7 @@ header button {
 
 .card-2 {
     width: 380px;
-    height: 420px;
+    height: 425px;
     border: 2px solid #2525251f;
     border-radius: 25px;
     margin: 30px 20px 20px;
@@ -196,7 +196,7 @@ header button {
 
 .card-3 {
     width: 380px;
-    height: 420px;
+    height: 425px;
     border: 2px solid #2525251f;
     border-radius: 25px;
     margin: 30px 20px 20px;
@@ -249,6 +249,8 @@ header button {
 .card-3 .content {
     padding: 10px 40px 10px;
 }
+
+
 
 .content h2 {
     font-size: 25px;
