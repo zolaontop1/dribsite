@@ -2,9 +2,7 @@
 <p>
 This is my personal project that I made to understand the fundamentals of HTML, CSS and JavaScript. I have used my knowledge of these tools to make a frontend clone of the website dribbble.<br>
 
-Here are some Screenshots of how the site looks as well as the link to the live site.
-
-<a href="https:/\/\zolaontop1.github.io/\dribsite/\">Live site</a>
+Here are some Screenshots of how the site looks as well as the link to the <a href="https:/\/\zolaontop1.github.io/\dribsite/\">Live site</a>
 
 </p>
 
