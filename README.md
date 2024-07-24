@@ -4,9 +4,9 @@ This is my personal project that I made to understand the fundamentals of HTML, 
 
 Here are some Screenshots to give you an example of how the site looks as well as the link to the live page where you can interact with the website.
 
-</p>
+<a href="https:/\/\zolaontop1.github.io/\dribsite/\">Finish</a>
 
-<a href="https://zolaontop1.github.io/dribsite/"></a>
+</p>
 
 <h3>Signup Page</h3>
 <img src="./Screenshots/signup.png">
@@ -17,7 +17,7 @@ Here are some Screenshots to give you an example of how the site looks as well a
 <h3>Profile Page</h3>
 <img src="./Screenshots/profile.png">
 
-<h3>Customize Page</h3> 
+<h3>Options Page</h3> 
 <img src="./Screenshots/customize.png">
 
 <h3>Mainpage</h3>
