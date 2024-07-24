@@ -2,7 +2,10 @@
 <p>
 This is my personal project that I made to understand the fundamentals of HTML, CSS and JavaScript.<br>
 
-Here are some Screenshots to give you an example of how the site looks
+Here are some Screenshots to give you an example of how the site looks as well as the link to the live page where you can interact with the website.
+
+<a href="https://zolaontop1.github.io/dribsite/"> 
+
 </p>
 
 <h3>Signup Page</h3>
