@@ -1,6 +1,6 @@
 <h2>Welcome to Dribsite</h2>
 <p>
-This is my personal project that I made to understand the fundamentals of HTML, CSS and JavaScript.<br>
+This is my personal project that I made to understand the fundamentals of HTML, CSS and JavaScript. I have used my knowledge of these tools to make a clone of the website dribbble.<br>
 
 Here are some Screenshots to give you an example of how the site looks as well as the link to the live site.
 
